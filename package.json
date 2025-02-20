@@ -1,0 +1,21 @@
+{
+  "name": "canadian-history-of-the-internet",
+  "version": "1.0.0",
+  "description": "Webside that informs about the history of the Internet in Canada between 2000 - 2025",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidRodriguez119/Canadian-History-of-the-Internet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidRodriguez119/Canadian-History-of-the-Internet/issues"
+  },
+  "homepage": "https://github.com/DavidRodriguez119/Canadian-History-of-the-Internet#readme"
+}
