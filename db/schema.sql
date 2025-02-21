@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS historyInfo_db;
+CREATE DATABASE historyInfo_db;
