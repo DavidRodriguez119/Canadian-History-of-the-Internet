@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/DavidRodriguez119/Canadian-History-of-the-Internet/issues"
   },
-  "homepage": "https://github.com/DavidRodriguez119/Canadian-History-of-the-Internet#readme"
+  "homepage": "https://github.com/DavidRodriguez119/Canadian-History-of-the-Internet#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "handlebars": "^4.7.8"
+  }
 }
