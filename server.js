@@ -1,7 +1,6 @@
 const express = require('express');
-
-//use the word router instead of express.Router()
-const router = express.Router();
+const allRoutes = require('./controllers');
+const sequelize = require("./config/connection");
 
 // Sets up the Express App
 const app = express();
@@ -20,4 +19,12 @@ app.use(express.json());
 // Static directory
 app.use(express.static('public'));
 
-// Import routes and give the server access to them.    
+// Routes
+app.use('/', allRoutes);
+
+// Starts the server to begin listening
+sequelize.sync({ force: false }).then(function () {
+    app.listen(PORT, function () {
+        console.log('App listening on PORT ' + PORT);
+    });
+});
