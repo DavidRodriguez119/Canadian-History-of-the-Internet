@@ -1,0 +1,118 @@
+[
+    {
+        "sourceId": 1,
+        "developmentId": 1
+    },
+    {
+        "sourceId": 1,
+        "developmentId": 2
+    },
+    {
+        "sourceId": 2,
+        "developmentId": 3 
+    },
+    {
+        "sourceId": 3,
+        "developmentId": 3
+    },
+    {
+        "sourceId": 4,
+        "developmentId": 4 
+    },
+    {
+        "sourceId": 5,
+        "developmentId": 4
+    },
+    {
+        "sourceId": 6,
+        "developmentId": 5
+    },
+    {
+        "sourceId": 7,
+        "developmentId": 6
+    },
+    {
+        "sourceId": 8,
+        "developmentId": 5
+    },
+    {
+        "sourceId": 8,
+        "developmentId": 6
+    },
+    {
+        "sourceId": 8,
+        "developmentId": 7
+    },
+    {
+        "sourceId": 8,
+        "developmentId": 8
+    },
+    {
+        "sourceId": 9,
+        "developmentId": 6
+    },
+    {
+        "sourceId": 10,
+        "developmentId": 9 
+    },
+    {
+        "sourceId": 11,
+        "developmentId": 10  
+    },
+    {
+        "sourceId": 12,
+        "developmentId": 9
+    },
+    {
+        "sourceId": 12,
+        "developmentId": 10
+    },
+    {
+        "sourceId": 12,
+        "developmentId": 11
+    },
+    {
+        "sourceId": 12,
+        "developmentId": 12
+    },
+    {
+        "sourceId": 12,
+        "developmentId": 13
+    },
+    {
+        "sourceId": 13,
+        "developmentId": 13
+    },
+    {
+        "sourceId": 14,
+        "developmentId": 12
+    },
+    {
+        "sourceId": 15,
+        "developmentId": 14
+    },
+    {
+        "sourceId": 16,
+        "developmentId": 16
+    },
+    {
+        "sourceId": 17,
+        "developmentId": 16
+    },
+    {
+        "sourceId": 18,
+        "developmentId": 19
+    },
+    {
+        "sourceId": 18,
+        "developmentId": 15
+    },
+    {
+        "sourceId": 18,
+        "developmentId": 17
+    },
+    {
+        "sourceId": 18,
+        "developmentId": 18
+    }
+]

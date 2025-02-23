@@ -1,0 +1,97 @@
+[
+    {
+      "periodId": 1,
+      "title": "Broadband Adoption Takes Off",
+      "description": "In the early 2000s, Canadian households embraced high-speed Internet at an unprecedented rate. By 2001, Statistics Canada data show that roughly 2.8 million households—about 49% of those regularly online—had adopted broadband services. This rapid growth placed Canada among the world's leaders in broadband penetration, driven by the desire for faster, more reliable connections for work and entertainment."
+    },
+    {
+      "periodId": 1,
+      "title": "ISPs and Competition",
+      "description": "The period also witnessed a surge in competition among Internet Service Providers. Major telecom players such as Bell, Rogers, and Telus expanded their broadband offerings—transitioning from dial-up to DSL and cable-based services—while smaller, local ISPs and community networks (for example, initiatives like National Capital FreeNet) entered the market. This competitive atmosphere not only spurred technological upgrades and service improvements but also played a role in gradually reducing prices and extending network coverage to rural and remote communities."
+    },
+    {
+      "periodId": 1,
+      "title": "Dot-Com Bubble Impact",
+      "description": "While the burst of the dot-com bubble around two thousand led to the collapse of many speculative tech ventures in North America, its effects in Canada were mixed. Iconic tech companies like Nortel and BCE suffered significant setbacks—including layoffs and a sharp drop in stock values—but the overall broadband infrastructure continued to expand. The market correction redirected investments toward building sustainable networks so despite the disillusionment with overhyped startups, Canadian consumers’ demand for high-speed connectivity remained robust."
+    },
+    {
+      "periodId": 1,
+      "title": "Government Initiatives",
+      "description": "The Canadian government launched several key initiatives to capitalize on broadband’s potential and mitigate regional disparities. In 2001, the National Broadband Task Force was set up with a mandate to develop a strategy that would ensure broadband was available in every community by 2004—focusing especially on rural, remote, and First Nations areas. Around the same time, pilot programs like the Broadband for Rural and Northern Development Pilot Program (launched in September 2002) provided targeted funding to extend high-speed Internet access to underserved regions, helping to bridge the digital divide and stimulate economic growth across Canada."
+    },
+    {
+      "periodId": 2,
+      "title": "Emergence of Social Media",
+      "description": "The mid-2000s marked the explosive rise of social media in Canada. Platforms like Facebook, YouTube, Twitter, and blogs began to flourish and quickly became part of everyday life. Canadian users not only consumed content but also generated it—sharing personal updates, engaging in community discussions, and mobilizing around political and social causes. This user-generated model of communication laid the groundwork for a more participatory digital culture that influenced everything from marketing to public discourse."
+    },
+    {
+      "periodId": 2,
+      "title": "Mobile Internet Begins",
+      "description": "The launch of smartphones—most notably the iPhone in 2007—and the rapid roll-out of 3G networks transformed how Canadians accessed the Internet. As mobile devices became more affordable and network coverage improved, a growing number of Canadians shifted from traditional fixed-line broadband to mobile Internet usage. This mobility fueled real-time interactions on social media and supported the expansion of location-based services, fundamentally changing the way consumers and businesses connected."
+    },
+    {
+      "periodId": 2,
+      "title": "Growth of E-commerce",
+      "description": "The Web 2.0 shift also spurred a significant expansion in e-commerce. Businesses leveraged interactive websites, customer reviews, and social networking features to build trust and engage directly with consumers. Canadian retailers adopted these tools to create personalized shopping experiences and to integrate social proof into their marketing strategies. The combined effect was a robust growth in online sales and a transformation of traditional retail models, laying the foundation for today’s digital economy."
+    },
+    {
+      "periodId": 2,
+      "title": "Net Neutrality Debates",
+      "description": "As broadband and mobile Internet became ubiquitous, concerns about how Internet Service Providers (ISPs) managed traffic began to surface. Debates over net neutrality emerged, centring on whether ISPs should be allowed to prioritize certain types of traffic over others. Canadian regulators and policymakers, including the Canadian Radio-television and Telecommunications Commission (CRTC), engaged in discussions, and set guidelines aimed at preserving an open and level playing field for content providers. These debates were critical in ensuring that the dynamic, user-driven environment of Web 2.0 was not stifled by discriminatory practices or preferential treatment."
+    },
+    {
+      "periodId": 3,
+      "title": "Smartphone Dominance",
+      "description": "From 2011 onward, smartphone adoption in Canada surged. By 2011, nearly eight million Canadians owned smartphones—representing about 40% of the mobile market—which set the stage for mobile-first experiences. Over the next several years, as operating systems like iOS and Android rapidly evolved, smartphones became the primary means for accessing the Internet, catalyzing the transformation of many digital services and communications. This transition fundamentally shifted consumer habits and expectations, making mobile access essential for everyday tasks."
+    },
+    {
+      "periodId": 3,
+      "title": "App Economy Boom",
+      "description": "Smartphone dominance directly fueled a boom in the app economy. Between 2011 and 2018, Canadian businesses and startups increasingly invested in mobile applications, from utility and productivity tools to social networking and gaming apps. By 2018, despite being smaller in absolute numbers compared to global giants, Canada’s app economy was notable on a per-capita basis—with job creation and entrepreneurial activities ranking favourably against many industrialized nations. Initiatives such as Digital Canada 150 further boosted investment in digital skills and connectivity, reinforcing the country’s competitive edge in the app-driven digital ecosystem."
+    },
+    {
+      "periodId": 3,
+      "title": "Streaming Media",
+      "description": "During this period, streaming media transformed how Canadians consumed content. The rapid expansion of mobile broadband and the widespread use of smartphones enabled services like Netflix, YouTube, and Spotify to flourish. As users shifted from traditional cable and broadcast channels to streaming, content consumption became more personalized and on-demand. This surge not only disrupted the traditional media landscape but also pressured telecom providers to innovate in content delivery, even as consumers grappled with rising data consumption."
+    },
+    {
+      "periodId": 3,
+      "title": "Data Caps and Pricing Concerns",
+      "description": "With the shift to mobile-first usage, concerns over data caps and pricing became more pronounced. Major ISPs often imposed data limits that were seen as insufficient for the growing demands of streaming and app usage, leading to additional overage fees that burdened heavy users. For instance, while some independent providers offered generous or even unlimited data plans, incumbents maintained more restrictive caps and higher per-gigabyte charges. These pricing models sparked debates over fairness and contributed to ongoing discussions about market competition and affordability in Canada’s telecommunications sector."
+    },
+    {
+      "periodId": 3,
+      "title": "Digital Divide Persists",
+      "description": "Despite advances in technology and increased mobile penetration, the digital divide in Canada remained evident during this period. Vulnerable groups—such as lower-income households, rural communities, and certain immigrant populations—continued to face barriers to accessing high-quality mobile broadband. Data caps and higher pricing in some regions further exacerbated these inequalities, limiting opportunities for digital inclusion and the full participation of all Canadians in the digital economy."
+    },
+    {
+      "periodId": 4,
+      "title": "5G Rollout",
+      "description": "Canada initiated its 5G rollout in 2020, with major telecommunications companies like Telus, Rogers, and Bell deploying 5G networks in urban centres such as Vancouver, Montreal, Calgary, Edmonton, and Toronto. By early 2025, Telus reported that its 5G network covered approximately 87% of Canada's population."
+    },
+    {
+      "periodId": 4,
+      "title": "Increased Data Consumption",
+      "description": "The deployment of 5G networks facilitated higher data consumption, enabling faster internet speeds and more reliable connections. This advancement supported the growth of data-intensive applications, including streaming services, cloud computing, and the Internet of Things (IoT), thereby transforming various sectors such as healthcare, education, and entertainment."
+    },
+    {
+      "periodId": 4,
+      "title": "Focus on Digital Skills and Literacy",
+      "description": "Recognizing the importance of digital literacy, the Canadian government invested in programs to enhance digital skills among its citizens. The Digital Literacy Exchange Program (DLEP) allocated $17.6 million to support initiatives aimed at teaching digital literacy skills to Canadians facing barriers to participating in the digital economy. Additionally, the CanCode program received a $39.2 million investment to provide digital skills training, with a renewed focus on artificial intelligence (AI) literacy."
+    },
+    {
+      "periodId": 4,
+      "title": "Online Privacy and Security Concerns",
+      "description": "The rapid adoption of digital technologies heightened concerns regarding online privacy and security. The Canadian government and regulatory bodies addressed these issues by implementing stricter data protection laws and promoting cybersecurity awareness to safeguard citizens' personal information in the digital age."
+    },
+    {
+      "periodId": 4,
+      "title": "COVID-19 Pandemic Impact (2020-2023)",
+      "description": "The COVID-19 pandemic accelerated digital transformation across Canada. With lockdowns and social distancing measures in place, there was a significant shift toward remote work, online education, and digital services. This transition underscored the necessity for robust digital infrastructure and highlighted the digital divide, prompting increased efforts to enhance connectivity and digital literacy nationwide."
+    },
+    {
+      "periodId": 4,
+      "title": "Ongoing Policy Debates",
+      "description": "Throughout this period, policy debates centred on balancing technological advancement with privacy rights, ensuring equitable access to digital resources, and fostering innovation while protecting consumers. Discussions also focused on the role of municipalities in 5G deployment and managing municipal rights of way, with the Canadian Radio-television and Telecommunications Commission affirming the municipal role in 5G deployment."
+    }
+  ]
