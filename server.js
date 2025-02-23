@@ -23,7 +23,7 @@ app.use(express.static('public'));
 app.use('/', allRoutes);
 
 // Starts the server to begin listening
-sequelize.sync({ force: false }).then(function () {
+sequelize.sync({ force: true }).then(function () {
     app.listen(PORT, function () {
         console.log(`App listening on PORT ${PORT}
 http://localhost:${PORT}`);
