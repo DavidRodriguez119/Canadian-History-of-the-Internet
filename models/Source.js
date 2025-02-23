@@ -1,27 +1,27 @@
 const { DataTypes } = require(`sequelize`);
-const sequelize = require(`../config/database`);
+const sequelize = require(`../config/connection.js`);
 
 const Source = sequelize.define(`Source`, {
     //Model attributes:
     author: {
         type: DataTypes.STRING,
-        allowNull: false,
+        allowNull: true,
     },
     date: {
         type: DataTypes.DATE,
-        allowNull: false,
+        allowNull: true,
     },
     title: {
         type: DataTypes.STRING,
-        allowNull: false,
+        allowNull: true,
     },
     publisher: {
         type: DataTypes.STRING,
-        allowNull: false,
+        allowNull: true,
     },
     url: {
         type: DataTypes.STRING,
-        allowNull: false,
+        allowNull: true,
     }
 });
 

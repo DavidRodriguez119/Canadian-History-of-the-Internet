@@ -1,6 +1,6 @@
 //Import model and data
 const { Period } = require('../models');
-const periods = require('./periods.json');
+const periods = require('../data/periods.json');
 
 //function to seed the database
 const seedPeriods = () => Period.bulkCreate(periods);

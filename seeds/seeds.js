@@ -1,11 +1,11 @@
 //Require sequelize through the connection file
-const sequelize = require(`../config/connection`);
+const sequelize = require(`../config/connection.js`);
 
 //Require the different seed files
-const seedPeriods = require('./seeds/periodSeeds');
-const seedDevelopments = require('./seeds/developmentSeeds');
-const seedSources = require('./seeds/sourceSeeds');
-const seedDevelopmentsSources = require('./seeds/developmentsSourcesSeeds');
+const seedPeriods = require(`./period-seeds.js`);
+const seedDevelopments = require('./development-seeds.js');
+const seedSources = require('./source-seeds.js');
+const seedDevelopmentsSources = require('./developments-sources-seeds.js');
 
 //Seed the database
 const seedDatabase = async () => {
