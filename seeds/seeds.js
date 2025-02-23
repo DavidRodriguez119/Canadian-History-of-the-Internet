@@ -17,6 +17,7 @@ const seedDatabase = async () => {
     await seedSources();
     console.log(`--------------SOURCES SEEDED--------------`);
 
+    console.log(`Seeding completed :)`);
     process.exit(0); //Exit the process
 };
 

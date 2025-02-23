@@ -1,0 +1,26 @@
+[
+    {
+      "startYear": 2000,
+      "endYear": 2003,
+      "title": "Broadband and the Dot-Com Bubble Burst",
+      "overview": "Broadband Adoption Takes Off. In the early 2000s, Canadian households embraced high-speed Internet at an unprecedented rate. By 2001, Statistics Canada data show that roughly 2.8 million households—about 49% of those regularly online—had adopted broadband services. This rapid growth placed Canada among the world's leaders in broadband penetration, driven by the desire for faster, more reliable connections for work and entertainment."
+    },
+    {
+      "startYear": 2004,
+      "endYear": 2010,
+      "title": "Web 2.0 and Social Media",
+      "overview": "Between 2004 and 2010, Canada witnessed a major digital transformation as the era of Web 2.0 reshaped how people communicated, shopped, and engaged online. This period was marked by the explosive rise of social media platforms like Facebook, YouTube, and Twitter, the launch of smartphones and the expansion of mobile internet. Furthermore, significant growth in e-commerce and the emergence of net neutrality debates."
+    },
+    {
+      "startYear": 2011,
+      "endYear": 2018,
+      "title": "Mobile First and the App Economy",
+      "overview": "From 2011 onward, smartphone adoption in Canada surged, leading to a mobile-first era. This period saw a boom in the app economy, the transformation of content consumption through streaming media, and growing concerns over data caps and pricing, contributing to the persistent digital divide."
+    },
+    {
+      "startYear": 2019,
+      "endYear": 2025,
+      "title": "The 5G Era and Digital Transformation",
+      "overview": "Between 2019 and 2025, Canada experienced significant advancements in 5G technology, digital skills development, and online privacy and security, all influenced by the COVID-19 pandemic. This period saw the rollout of 5G networks, increased data consumption, a focus on digital skills and literacy, and heightened online privacy and security concerns."
+    }
+  ]
