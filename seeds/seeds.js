@@ -5,6 +5,7 @@ const sequelize = require(`../config/connection`);
 const seedPeriods = require('./seeds/periodSeeds');
 const seedDevelopments = require('./seeds/developmentSeeds');
 const seedSources = require('./seeds/sourceSeeds');
+const seedDevelopmentsSources = require('./seeds/developmentsSourcesSeeds');
 
 //Seed the database
 const seedDatabase = async () => {
@@ -16,6 +17,8 @@ const seedDatabase = async () => {
     console.log(`--------------DEVELOPMENTS SEEDED--------------`);
     await seedSources();
     console.log(`--------------SOURCES SEEDED--------------`);
+    await seedDevelopmentsSources();
+    console.log(`--------------DEVELOPMENTS SOURCES SEEDED--------------`);
 
     console.log(`Seeding completed :)`);
     process.exit(0); //Exit the process

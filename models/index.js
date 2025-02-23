@@ -26,4 +26,5 @@ module.exports = {
     Period,
     Development,
     Source,
+    DevelopmentsSources,
 };
