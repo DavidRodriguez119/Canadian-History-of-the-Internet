@@ -1,0 +1,21 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Development Validation",
+    "description": "Schema for Development data",
+    "type": "object",
+    "properties": {
+        "periodId": {
+            "type": "integer",
+            "description": "The ID of the period this development belongs to"
+          },
+          "title": {
+            "type": "string",
+            "description": "The title of the development"
+          },
+          "description": {
+            "type": "string",
+            "description": "A detailed description of the development"
+          }
+    },
+    "required": ["periodId", "title", "description"]
+}
