@@ -1,0 +1,27 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Period Validation",
+    "description": "Schema for Period data",
+    "type": "object",
+    "properties": {
+        "startDate": {
+            "type": "integer",
+            "format": "date",
+            "description": "Start date of the period"
+        },
+        "endDate": {
+            "type": "integer",
+            "format": "date",
+            "description": "End date of the period"
+        },
+        "title": {
+            "type": "string",
+            "description": "Title of the period"
+        },
+        "overview": {
+            "type": "string",
+            "description": "short description of the period"
+        }
+    },
+    "required": ["startDate", "endDate", "title", "overview"]
+}
