@@ -27,4 +27,16 @@ router.get(`/:id`, (req, res) => {
     });
 })
 
+//Retrieve all sources for a specific development
+router.get(`/:id/sources`, (req, res) => {
+    Development.findByPk(req.params.id, {
+        include: [Source]
+    }).then((development) => {
+        res.json(development.Sources);
+    })
+    .catch((err) => {
+        res.status(500).json({msg: `Something went wrong`, err});
+    });
+});
+
 module.exports = router;

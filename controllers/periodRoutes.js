@@ -25,6 +25,18 @@ router.get(`/:id`, (req, res) => {
     .catch((err) => {
         res.status(500).json({msg: `Something went wrong`, err});
     });
-})
+});
+
+//Retrieve all developments for a specific period
+router.get(`/:id/developments`, (req, res) => {
+    Period.findByPk(req.params.id, {
+        include: [Development]
+    }).then((period) => {
+        res.json(period.Developments);
+    })
+    .catch((err) => {
+        res.status(500).json({msg: `Something went wrong`, err});
+    });
+});
 
 module.exports = router;
