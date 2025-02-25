@@ -15,4 +15,16 @@ router.get(`/`, (req, res) => {
     });
 });
 
+//Find one development by id
+router.get(`/:id`, (req, res) => {
+    Development.findByPk(req.params.id, {
+        include: [Source]
+    }).then((development) => {
+        res.json(development);
+    })
+    .catch((err) => {
+        res.status(500).json({msg: `Something went wrong`, err});
+    });
+})
+
 module.exports = router;
