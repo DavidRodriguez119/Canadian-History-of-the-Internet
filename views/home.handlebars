@@ -1,5 +1,17 @@
-
-
+<section id="periods-container">
+    {{#each periods}}
+        <div class="period-display">
+            <h2>{{dataValues.title}} &#40;{{dataValues.startYear}}-{{dataValues.endYear}}&#41;</h2>
+            <p>{{dataValues.overview}}</p>
+            <button class="see-more-button">See More</button>
+        </div>
+        {{#if @last}}
+            {{!-- Do not render arrow image --}}
+        {{else}}
+            <img class="arrow-img" src="/assets/arrow-image.png" alt="Arrow image pointing down">
+        {{/if}}
+    {{/each}}
+</section>
 
 
 <script src="/js/home.js"></script>

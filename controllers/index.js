@@ -8,7 +8,7 @@ const { Period, Development, Source } = require(`../models`);
 router.get(`/`, async (req, res) => {
     try{
         //get period data
-        const periods = await Period.findAll;
+        const periods = await Period.findAll();
         //render home page
         res.render(`home`, {periods});
         console.log(`Home page rendered ;)`);
