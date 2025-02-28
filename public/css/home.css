@@ -1,0 +1,33 @@
+#periods-container{
+    width: 80%;
+    padding: 15px;
+    margin: 15px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.period-display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #264963; 
+    padding: 20px;
+    margin: 25px;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+} 
+
+.period-display > *{
+    margin: 15px;
+}
+
+.arrow-image{
+    width: 80px;
+    height: 80px;
+    transform: rotate(90deg);
+}
+
+
+

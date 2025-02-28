@@ -15,4 +15,16 @@ router.get(`/`, (req, res) => {
     });
 });
 
+//Find one source by id
+router.get(`/:id`, (req, res) => {
+    Source.findByPk(req.params.id, {
+        include: [Period]
+    }).then((source) => {
+        res.json(source);
+    })
+    .catch((err) => {
+        res.status(500).json({msg: `Something went wrong`, err});
+    });
+})
+
 module.exports = router;
