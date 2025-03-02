@@ -1,3 +1,17 @@
-<section id="content-container">
-    <h2>This page is loading</h2>
+<section class="content-container">
+    <h2 id="dev-title">{{period.dataValues.title}}</h2>
+    {{#each period.dataValues.Developments}}
+        <div class="development-display">
+            <h3>{{dataValues.title}}</h3>
+            <p>{{dataValues.description}}</p>
+            <div class="sources-button">
+                <button>See Sources</button>
+            </div>
+        </div>
+        {{#if @last}}
+            {{!-- Do not render arrow image --}}
+        {{else}}
+            <img class="arrow-image" src="/assets/arrow-image-rotated.png" alt="Arrow image pointing down">
+        {{/if}}    
+    {{/each}}
 </section>
