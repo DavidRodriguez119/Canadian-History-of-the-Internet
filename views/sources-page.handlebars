@@ -1,3 +1,125 @@
 <section class="content-container">
-    <h2>This page is loadign as well</h2>
+    <h2>Sources</h2>
+    <div class="development-display">
+        <h3>{{period.[0].dataValues.title}}</h3>
+        <ul class="list-of-sources">
+            {{#each sourcesP1}}
+                <li>
+                    {{#if dataValues.author}}
+                        {{dataValues.author}}. 
+                    {{else}}
+                        N/A.  
+                    {{/if}}
+                    &#40;{{#if dataValues.date}}{{dataValues.date}}{{else}}N/A{{/if}}&#41;.
+                    {{#if dataValues.title}}
+                        {{dataValues.title}}. 
+                    {{else}}
+                        N/A.  
+                    {{/if}}
+                    {{#if dataValues.publisher}}
+                        {{dataValues.publisher}}. 
+                    {{else}}
+                        N/A.  
+                    {{/if}}
+                    {{#if dataValues.url}}
+                        <a href={{dataValues.url}}>{{dataValues.url}}</a>. 
+                    {{else}}
+                        N/A.  
+                    {{/if}} 
+                </li>
+            {{/each}}
+        </ul>
+    </div>
+    <div class="development-display">
+        <h3>{{period.[1].dataValues.title}}</h3>
+        <ul class="list-of-sources">
+            {{#each sourcesP1}}
+                <li>
+                    {{#if dataValues.author}}
+                        {{dataValues.author}}. 
+                    {{else}}
+                        N/A.  
+                    {{/if}}
+                    &#40;{{#if dataValues.date}}{{dataValues.date}}{{else}}N/A{{/if}}&#41;.
+                    {{#if dataValues.title}}
+                        {{dataValues.title}}. 
+                    {{else}}
+                        N/A.  
+                    {{/if}}
+                    {{#if dataValues.publisher}}
+                        {{dataValues.publisher}}. 
+                    {{else}}
+                        N/A.  
+                    {{/if}}
+                    {{#if dataValues.url}}
+                        <a href={{dataValues.url}}>{{dataValues.url}}</a>. 
+                    {{else}}
+                        N/A.  
+                    {{/if}} 
+                </li>
+            {{/each}}
+        </ul>
+    </div>
+    <div class="development-display">
+        <h3>{{period.[2].dataValues.title}}</h3>
+        <ul class="list-of-sources">
+            {{#each sourcesP1}}
+                <li>
+                    {{#if dataValues.author}}
+                        {{dataValues.author}}. 
+                    {{else}}
+                        N/A.  
+                    {{/if}}
+                    &#40;{{#if dataValues.date}}{{dataValues.date}}{{else}}N/A{{/if}}&#41;.
+                    {{#if dataValues.title}}
+                        {{dataValues.title}}. 
+                    {{else}}
+                        N/A.  
+                    {{/if}}
+                    {{#if dataValues.publisher}}
+                        {{dataValues.publisher}}. 
+                    {{else}}
+                        N/A.  
+                    {{/if}}
+                    {{#if dataValues.url}}
+                        <a href={{dataValues.url}}>{{dataValues.url}}</a>. 
+                    {{else}}
+                        N/A.  
+                    {{/if}} 
+                </li>
+            {{/each}}
+        </ul>
+    </div>
+    <div class="development-display">
+        <h3>{{period.[3].dataValues.title}}</h3>
+        <ul class="list-of-sources">
+            {{#each sourcesP1}}
+                <li>
+                    {{#if dataValues.author}}
+                        {{dataValues.author}}. 
+                    {{else}}
+                        N/A.  
+                    {{/if}}
+                    &#40;{{#if dataValues.date}}{{dataValues.date}}{{else}}N/A{{/if}}&#41;.
+                    {{#if dataValues.title}}
+                        {{dataValues.title}}. 
+                    {{else}}
+                        N/A.  
+                    {{/if}}
+                    {{#if dataValues.publisher}}
+                        {{dataValues.publisher}}. 
+                    {{else}}
+                        N/A.  
+                    {{/if}}
+                    {{#if dataValues.url}}
+                        <a href={{dataValues.url}}>{{dataValues.url}}</a>. 
+                    {{else}}
+                        N/A.  
+                    {{/if}} 
+                </li>
+            {{/each}}
+        </ul>
+    </div>
 </section>
+
+<script type="module" src="/js/sources-page.js"></script>

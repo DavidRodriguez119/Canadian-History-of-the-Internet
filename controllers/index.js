@@ -2,7 +2,7 @@ const express = require('express');
 //use the word router instead of express.Router()
 const router = express.Router();
 //Import models
-const { Period, Development, Source } = require(`../models`);
+const { Period, Development, Source, DevelopmentsSources } = require(`../models`);
 
 //route to home page
 router.get(`/`, async (req, res) => {
@@ -37,10 +37,38 @@ router.get(`/period-page/:id`, async (req, res) => {
 //route to sources page
 router.get(`/sources-page`, async (req, res) => {
     try{
-        //get source data
-        const sources = await Source.findAll();
+        //get period data
+        const period = await Period.findAll({
+            include: [Development]
+        });
+
+        //get sources data
+        const sourcesP1 = await Source.findAll({
+            where: {
+                periodId: 1
+            },
+        });
+
+        const sourcesP2 = await Source.findAll({
+            where: {
+                periodId: 2
+            },
+        });
+
+        const sourcesP3 = await Source.findAll({
+            where: {
+                periodId: 3
+            },
+        });
+
+        const sourcesP4 = await Source.findAll({
+            where: {
+                periodId: 4
+            },
+        });
+        console.log(sourcesP1);
         //render sources page
-        res.render(`sources-page`, {sources});
+        res.render(`sources-page`, {sourcesP1, sourcesP2, sourcesP3, sourcesP4, period});
         console.log(`Sources page rendered ;)`);
     } catch(err){
         console.log(`Something went wrong rendering Sources Page :(`, err);

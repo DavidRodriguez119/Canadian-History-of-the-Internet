@@ -1,0 +1,20 @@
+.development-display .list-of-sources {
+    list-style: none; 
+    padding: 0;      
+  }
+  
+  .development-display .list-of-sources li {
+    margin-bottom: 10px;  
+    border-bottom: 1px solid #ccc; 
+    padding-bottom: 10px;   
+  }
+
+  .development-display .list-of-sources a {
+    color: blue; 
+    text-decoration: underline; 
+
+  }
+  
+  .development-display .list-of-sources a:visited {
+    color: blue; 
+  }
