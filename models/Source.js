@@ -8,7 +8,7 @@ const Source = sequelize.define(`Source`, {
         allowNull: true,
     },
     date: {
-        type: DataTypes.DATE,
+        type: DataTypes.STRING,
         allowNull: true,
     },
     title: {
@@ -20,7 +20,7 @@ const Source = sequelize.define(`Source`, {
         allowNull: true,
     },
     url: {
-        type: DataTypes.STRING,
+        type: DataTypes.STRING(1024),
         allowNull: true,
     }
 });

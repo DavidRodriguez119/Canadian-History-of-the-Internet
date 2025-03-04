@@ -4,14 +4,19 @@
         <div class="development-display">
             <h3>{{dataValues.title}}</h3>
             <p>{{dataValues.description}}</p>
-            <div class="sources-button">
-                <button>See Sources</button>
+            <div class="sources-button-div">
+                <button class="sources-button">See Sources</button>
             </div>
         </div>
+
+        {{!-- Add arrow image after every development except for the last --}}
         {{#if @last}}
             {{!-- Do not render arrow image --}}
         {{else}}
             <img class="arrow-image" src="/assets/arrow-image-rotated.png" alt="Arrow image pointing down">
         {{/if}}    
+
     {{/each}}
 </section>
+
+<script type="module" src="/js/period-page.js"></script>
