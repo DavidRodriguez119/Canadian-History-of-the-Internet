@@ -58,9 +58,8 @@ The frontend will be built using Handlebars and will include templates for:
 
 *   Performance: Fast page load times and responsiveness.
 *   Usability: Easy navigation, clear content, and accessibility.
-*   Security: Data protection and secure connections.
+*   Security: Secure connections.
 *   Reliability: Minimal downtime and error handling.
-*   Scalability: Ability to handle traffic and data growth.
 *   Maintainability: Well-organized and documented code.
 *   Portability: Cross-browser and platform compatibility.
 
@@ -69,21 +68,50 @@ The frontend will be built using Handlebars and will include templates for:
 *   Backend: Node.js, Express.js, Sequelize, MySQL
 *   Frontend: Handlebars, HTML, CSS, JavaScript
 *   Database: MySQL
-*   Deployment: [//]: # (e.g., Heroku)
+*   Raw DataL: JSON files
+*   Deployment: [//]: (Heroku)
 *   Version Control: Git
 
 ## Installation
 
 [//]: # (Instructions on how to install the project dependencies.)
 
+1. Clone the repository or download the zip file of the code. 
+
+2. Open the code.
+
+3. In the terminal of the project use: npm i
+
+    * Note that node should already be installed in the device.
+
+    * This will install all the dependencies needed to run the page.
+
+4. Create a .env file with the necessary credentials to run the seeds file.
+
+    * The .env file must have a: DB_NAME, DB_USER, DB_PASSWORD.
+
+5. Go to the server.js file:
+
+    * In line 26, change { force: false } to { force: true }
+
+6. Run mysql -u root -p
+
+    * Note that a version of MySQL should be already installed in the device.
+
+    * Insert the password added in the .env file
+
+    * Once logged in, type source db/shcema.sql
+
+    * Once the file had run type exit
+
+7. In the terminal type: node ./seeds/seeds.js
+
+8. Go to the server.js file:
+
+    * In line 26, change { force: true } to { force: false }
+
 ## How to Run the Code
 
 [//]: # (Instructions on how to run the project locally.)
 
-## Contributing
-
-[//]: # (Guidelines for contributing to the project.)
-
-## License
-
-[//]: # (Specify the license for the project.)
+1. After installation, type node server.js in the terminal to initialize the server.
