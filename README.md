@@ -7,7 +7,6 @@ This project aims to create a website that informs about the history of the inte
 *   [Project Description](#project-description)
 *   [Features](#features)
 *   [Database Schema](#database-schema)
-*   [API Endpoints](#api-endpoints)
 *   [Frontend Structure](#frontend-structure)
 *   [Non-Functional Requirements](#non-functional-requirements)
 *   [Technologies Used](#technologies-used)
@@ -63,7 +62,7 @@ The frontend will be built using Handlebars and will include templates for:
 *   Frontend: Handlebars, HTML, CSS, JavaScript
 *   Database: MySQL
 *   Raw DataL: JSON files
-*   Deployment: [//]: (Heroku)
+*   Deployment: [https://canadian-internet-31f27edd4f1f.herokuapp.com]: (Heroku)
 *   Version Control: Git
 
 ## Installation
