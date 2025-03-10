@@ -66,7 +66,6 @@ router.get(`/sources-page`, async (req, res) => {
                 periodId: 4
             },
         });
-        console.log(sourcesP1);
         //render sources page
         res.render(`sources-page`, {sourcesP1, sourcesP2, sourcesP3, sourcesP4, period});
         console.log(`Sources page rendered ;)`);

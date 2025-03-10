@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+{{!-- added dir after accessibility test --}}
+<html lang="en" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Canadian History of the Internet</title>
+    <title>Canada's Internet Archive - A History of the Canadian Internet</title>
     {{!-- import font from google fonts: Montserrat for Title, Lato for subtitles and Source Sans for text --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,12 +18,13 @@
 </head>
 
 <body>
+    <a href="#main" class="skip-link">Skip to main content</a>
     <header>
         <section id="title-plus-logo">
-            <img id="logo" src="\assets\Logo_option_1.jpg" alt="Canada's Internet Archive">
-            <h1 style="font-family: Montserrat;">Canada's Internet Archive</h1>
+            <img id="logo" src="\assets\Logo_option_1.jpg" alt="Canada's Internet Archive Logo">
+            <h1>Canada's Internet Archive</h1>
         </section>
-        <nav>
+        <nav aria-label="Main Navigation">
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/period-page/1">2000-2003</a></li>
@@ -33,7 +35,7 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="main">
         {{{body}}}
     </main>
     <footer>
