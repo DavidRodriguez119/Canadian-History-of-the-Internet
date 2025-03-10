@@ -13,8 +13,6 @@ This project aims to create a website that informs about the history of the inte
 *   [Technologies Used](#technologies-used)
 *   [Installation](#installation)
 *   [How to Run the Code](#how-to-run-the-code)
-*   [Contributing](#contributing)
-*   [License](#license)
 
 ## Project Description
 
@@ -40,10 +38,6 @@ The database will consist of three main tables:
 *   **Periods:** Stores information about each period, including start year, end year, title, and overview.
 *   **Developments:** Stores details about specific developments within each period.
 *   **Sources:** Stores information about the sources used for the research.
-
-## API Endpoints
-
-[//]: # (API endpoints will be documented here. Example: /periods, /periods/:id, /developments, /sources)
 
 ## Frontend Structure
 
@@ -115,3 +109,13 @@ The frontend will be built using Handlebars and will include templates for:
 [//]: # (Instructions on how to run the project locally.)
 
 1. After installation, type node server.js in the terminal to initialize the server.
+
+## Screenshots or running app
+
+![Home Page](/public/assets/Screenshot-home.png)
+![Development Page](/public/assets/Screenshot-Development.png)
+![Sources Page](/public/assets/Screenshot-Sources.png)
+
+## Demo of the Website
+
+
