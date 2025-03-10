@@ -110,12 +110,16 @@ The frontend will be built using Handlebars and will include templates for:
 
 1. After installation, type node server.js in the terminal to initialize the server.
 
+## Deployed Website
+
+https://canadian-internet-31f27edd4f1f.herokuapp.com/
+
+## GitHub Repository
+
+[Link to GitHub Repository](https://github.com/DavidRodriguez119/Canadian-History-of-the-Internet.git)
+
 ## Screenshots or running app
 
 ![Home Page](/public/assets/Screenshot-home.png)
 ![Development Page](/public/assets/Screenshot-Development.png)
 ![Sources Page](/public/assets/Screenshot-Sources.png)
-
-## Demo of the Website
-
-
